@@ -20,7 +20,7 @@ export class ConfirmOrderComponent implements OnInit {
     // Redirecționare către pagina Home după 2 minute (120000 milisecunde)
     setTimeout(() => {
       this.router.navigate(['/home']);
-    }, 50000); // 120000 ms = 2 minute
+    }, 5000); // 120000 ms = 2 minute
   }
 
   clearShoppingCart() {
